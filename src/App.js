@@ -19,14 +19,20 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<CardDetails />} />
+        <Route path="/react-rick-morty/" element={<Home />} />
+        <Route path="/react-rick-morty/:id" element={<CardDetails />} />
 
-        <Route path="/episodes" element={<Episodes />} />
-        <Route path="/episodes/:id" element={<CardDetails />} />
+        <Route path="/react-rick-morty/episodes" element={<Episodes />} />
+        <Route
+          path="/react-rick-morty/episodes/:id"
+          element={<CardDetails />}
+        />
 
-        <Route path="/location" element={<Location />} />
-        <Route path="/location/:id" element={<CardDetails />} />
+        <Route path="/react-rick-morty/location" element={<Location />} />
+        <Route
+          path="/react-rick-morty/location/:id"
+          element={<CardDetails />}
+        />
       </Routes>
     </Router>
   );
