@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
       <div className="container">
-        <Link to="/" className="fs-3 navbar-brand fw-bold">
+        <Link to="/react-rick-morty" className="fs-3 navbar-brand fw-bold">
           Rick & Morty <span className="text-primary">Wiki</span>
         </Link>
         <button
@@ -40,17 +40,21 @@ const Navbar = () => {
         >
           <ul className="navbar-nav fs-5">
             <li className="nav-item">
-              <NavLink activeClassName="active" to="/" className="nav-link">
+              <NavLink
+                activeClassName="active"
+                to="/react-rick-morty"
+                className="nav-link"
+              >
                 Characters
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/episodes" className="nav-link">
+              <NavLink to="/react-rick-morty/episodes" className="nav-link">
                 Episodes
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/location" className="nav-link">
+              <NavLink to="/react-rick-morty/location" className="nav-link">
                 Locations
               </NavLink>
             </li>

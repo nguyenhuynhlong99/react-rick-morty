@@ -73,7 +73,7 @@ const Home = () => {
           />
           <div className="col-lg-8 col-12">
             <div className="row">
-              <Cards results={results} page="/" />
+              <Cards results={results} page="/react-morty/" />
             </div>
           </div>
         </div>
